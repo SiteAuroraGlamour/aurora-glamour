@@ -1,0 +1,6 @@
+Aurora Glamour V4 — layout romântico revisado.
+Removida a Máscara Peel Off Melu (produto usado apenas como exemplo).
+Imagens dos demais produtos permanecem com a resolução das fotos de origem (capturas do WhatsApp).
+Os banners usam composição gráfica e fotos em tamanho menor para evitar ampliação excessiva.
+Envie index.html e a pasta assets para a raiz do GitHub.
+IMPORTANTE: confirme e atualize o número do WhatsApp na constante WHATSAPP dentro do index.html antes de divulgar.
