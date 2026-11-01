@@ -1,1 +1,6 @@
-Aurora Glamour V2 — banners e vitrines de marcas. Envie index.html e a pasta assets inteira para a raiz do repositório GitHub. Ative Pages em main / (root). Banners promocionais feitos com fotos de produtos já enviadas; não são peças oficiais das marcas. Confirme o número WhatsApp antes de receber pedidos.
+Aurora Glamour V4 — layout romântico revisado.
+Removida a Máscara Peel Off Melu (produto usado apenas como exemplo).
+Imagens dos demais produtos permanecem com a resolução das fotos de origem (capturas do WhatsApp).
+Os banners usam composição gráfica e fotos em tamanho menor para evitar ampliação excessiva.
+Envie index.html e a pasta assets para a raiz do GitHub.
+IMPORTANTE: confirme e atualize o número do WhatsApp na constante WHATSAPP dentro do index.html antes de divulgar.
