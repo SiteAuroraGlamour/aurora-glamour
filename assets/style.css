@@ -204,3 +204,8 @@ body{background:linear-gradient(180deg,#fff9fb 0%,#fffdfd 49%,#fff8fa 100%)}
 .photo-zoom:hover img{transform:none!important}
 .photo-zoom img,.zoom-stage img,.featured-image img,.product-photo img{image-rendering:auto}
 .photo-zoom{background:#fff;border-radius:20px}
+
+/* V21: nitidez realista: sem upscale visual excessivo no zoom. */
+.zoom-stage>img{object-fit:contain;max-height:min(66vh,670px)}
+.photo-zoom img{image-rendering:auto;object-fit:contain}
+.zoom-stage{background:#fff}
