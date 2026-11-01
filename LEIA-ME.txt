@@ -1,0 +1,13 @@
+AURORA GLAMOUR — SITE DEMONSTRATIVO
+
+Abra index.html no navegador para testar. Para publicar, envie index.html e a pasta assets/ juntos para a raiz de um repositório GitHub Pages.
+
+ATENÇÃO — WHATSAPP: o número informado foi '34 9678-4579', que tem apenas oito dígitos após o DDD. No index.html, altere a constante WHATSAPP para o número correto, com 55 + DDD + número, antes de publicar. O número configurado atualmente é apenas a transcrição literal do informado e pode não funcionar.
+
+O site não recebe pagamentos: apenas informa a opção escolhida no pedido enviado ao WhatsApp.
+
+Os preços são os enviados na conversa. Fotos foram recortadas de capturas de tela do WhatsApp, portanto podem ter qualidade limitada. Confirme nomes, variações, preços e disponibilidade antes de publicar.
+
+Para editar produtos, abra index.html em editor de texto e altere a lista 'products'.
+
+Carrinho salvo no navegador (localStorage). Não há controle de estoque, painel administrativo ou backend.
