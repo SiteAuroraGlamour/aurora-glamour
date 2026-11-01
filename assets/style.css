@@ -179,3 +179,23 @@ body{background:linear-gradient(180deg,#fff9fb 0%,#fffdfd 49%,#fff8fa 100%)}
  .zoom-thumbs button{flex-basis:65px;width:65px;border-radius:12px}
  .zoom-arrow{width:30px;height:30px;font-size:21px}
 }
+
+
+/* V19 — fotos reais e paleta original preservada */
+.hero-scene{right:-10%;bottom:14px;width:116%;height:405px;object-fit:contain;object-position:center;filter:none;-webkit-mask-image:none;mask-image:none;mix-blend-mode:normal}
+.campaign-visual.visual-one{isolation:isolate}
+.featured-image img,.product-photo img{object-fit:contain;background:#fff9fb;border-radius:13px}
+.featured-image,.product-photo{background:linear-gradient(135deg,#fce8ef,#fff8fa)}
+.photo-stage{border-color:#ecd1dc;box-shadow:0 12px 33px #c77b9c10}
+.photo-zoom img,.zoom-stage img{image-rendering:auto;object-fit:contain}
+.photo-zoom:hover img{transform:none}
+.gallery-caption{font-size:12px;color:#92637b}
+.gallery-thumbs button img,.zoom-thumbs img{object-fit:contain}
+@media (max-width:700px){.hero-scene{width:112%;right:-5%;height:290px;bottom:14px}.featured-image img,.product-photo img{object-fit:contain}}
+@media (max-width:420px){.hero-scene{height:240px;bottom:10px}}
+
+/* Montagem responsiva com o mesmo produto real no desktop e no celular. */
+.hero-picture{position:absolute;right:-10%;bottom:12px;width:116%;height:410px;display:block}
+.hero-picture .hero-scene{position:static;display:block;width:100%;height:100%;object-fit:contain;-webkit-mask-image:none;mask-image:none}
+@media(max-width:700px){.hero-picture{width:96%;height:265px;right:2%;bottom:10px}}
+@media(max-width:420px){.hero-picture{height:245px;bottom:15px}}
