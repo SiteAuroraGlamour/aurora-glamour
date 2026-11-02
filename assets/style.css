@@ -209,3 +209,17 @@ body{background:linear-gradient(180deg,#fff9fb 0%,#fffdfd 49%,#fff8fa 100%)}
 .zoom-stage>img{object-fit:contain;max-height:min(66vh,670px)}
 .photo-zoom img{image-rendering:auto;object-fit:contain}
 .zoom-stage{background:#fff}
+
+/* V22: nome do produto acima e marca como subtítulo em toda a loja */
+.product-brand{display:block!important;font-size:11px!important;font-weight:500!important;line-height:1.4!important;color:#9d6880!important;margin:0 0 8px!important;min-height:15px!important}
+.featured-body>.product-brand{margin-top:0!important;margin-bottom:8px!important}
+.featured-body>.featured-price{display:block;font-weight:800;font-size:18px;color:#a94f74;margin-bottom:10px}
+.featured-body>strong{margin-bottom:3px!important;min-height:0!important;flex:0 0 auto!important}
+.product-body h3{margin-bottom:3px!important;min-height:0!important;flex:0 0 auto!important}
+.product-body>.price{margin-top:auto}
+.detail-brand{font-size:14px;letter-spacing:.04em;color:#9d6880;margin:-5px 0 18px;font-weight:600}
+.related-brand{display:block;font-size:10px;color:#a77c8b;margin-top:4px;font-weight:500}
+@media(max-width:640px){.featured-body>.featured-price{font-size:16px}.product-brand{font-size:10px!important}.detail-brand{font-size:12px;margin-bottom:12px}}
+
+/* V23 estoque por variante */
+.stock-chip{display:block;font-size:10px;color:#965776;font-weight:500;margin-top:2px}.variant-chip{flex-wrap:wrap}.variant-chip .stock-chip{width:100%;padding-left:34px}.detail-add:disabled{opacity:.62;cursor:not-allowed}.product-body .tiny-pill{font-size:10px}
