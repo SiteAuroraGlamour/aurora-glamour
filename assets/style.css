@@ -223,3 +223,12 @@ body{background:linear-gradient(180deg,#fff9fb 0%,#fffdfd 49%,#fff8fa 100%)}
 
 /* V23 estoque por variante */
 .stock-chip{display:block;font-size:10px;color:#965776;font-weight:500;margin-top:2px}.variant-chip{flex-wrap:wrap}.variant-chip .stock-chip{width:100%;padding-left:34px}.detail-add:disabled{opacity:.62;cursor:not-allowed}.product-body .tiny-pill{font-size:10px}
+
+/* V24: variantes organizadas com imagens individuais */
+.variant-choices{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}
+.variant-choices>span{grid-column:1/-1;font-weight:700;letter-spacing:.01em}
+.variant-chip{min-width:0!important;display:grid!important;grid-template-columns:52px minmax(0,1fr);grid-template-rows:auto auto;gap:0 10px!important;text-align:left!important;border-radius:16px!important;padding:9px!important;align-items:center!important;white-space:normal;overflow-wrap:anywhere;line-height:1.3}
+.variant-chip img{grid-row:1/3;width:52px!important;height:52px!important;object-fit:contain!important;border-radius:11px!important;background:white}
+.variant-chip .stock-chip{grid-column:2;font-size:10px;opacity:.85;display:block;margin-top:3px}
+@media(max-width:1100px){.variant-choices{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.variant-choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.variant-chip{grid-template-columns:40px minmax(0,1fr);padding:6px!important;font-size:11px!important}.variant-chip img{width:40px!important;height:40px!important}}
